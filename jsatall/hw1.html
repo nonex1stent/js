@@ -17,7 +17,7 @@
     xxx = 123;
     console.log(xxx);
     xxx = 2.7;
-    document.write(xxx);
+    document.write(`<h1>${xxx}</h1>`);
     let zzz=true;
     console.log(zzz);
     zzz=false;
@@ -44,27 +44,10 @@
     console.log(123 !== '123');
 
 
-    let firstName ={
-        name: 'Yaroslav'
-    }
-    let middleName ={
-        fathersname: 'Andriyovych'
-    }
-    let lastName ={
-        surname: 'Vonsul'
-    }
-    let person =[
-        firstName,
-        {name: 'Yaroslav'},
-        middleName,
-        {fathersname: 'Andriyovych'},
-        lastName,
-        {surnamename: 'Vonsul'}
-        ];
-
-
-
-
+    let firstName = prompt('Name', 'Yaroslav');
+    let middleName = prompt('fathersname', 'Andriyovych');
+    let lastName = prompt('surname', 'Vonsul');
+    document.write(firstName +" " + middleName +" "+ lastName+" ")
 
 
 
