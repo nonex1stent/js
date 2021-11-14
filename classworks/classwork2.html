@@ -10,17 +10,21 @@
     let second = +prompt(`Введіть друге число`)
     if (first > second) {
         console.log(first);
-    } else if (first === second) {
+    }
+    else if (first === second) {
         console.log('Числа рівні');
+    }
+    else if (first < second) {
+        console.log(second);
     }
 
 
     let xxx = +prompt(`Введіть номер квартири`);
-    if (xxx <= 20) {
+    if (xxx >0 && xxx<=20) {
         console.log(`Ви на першому поверсі`);
-    } else if (xxx <= 48) {
+    } else if (xxx >21 && xxx<=48) {
         console.log(`Ви на другому поверсі`);
-    } else if (xxx <= 90) {
+    } else if (xxx >49 && xxx<=90) {
         console.log(`Ви на третьому поверсі`);
     } else {
         console.log(`Перевірте номер квартири`)
