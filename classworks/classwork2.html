@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let first = +prompt(`Введіть перше число`)
+    let second = +prompt(`Введіть друге число`)
+    if (first > second) {
+        console.log(first);
+    } else if (first === second) {
+        console.log('Числа рівні');
+    }
+
+
+    let xxx = +prompt(`Введіть номер квартири`);
+    if (xxx <= 20) {
+        console.log(`Ви на першому поверсі`);
+    } else if (xxx <= 48) {
+        console.log(`Ви на другому поверсі`);
+    } else if (xxx <= 90) {
+        console.log(`Ви на третьому поверсі`);
+    } else {
+        console.log(`Перевірте номер квартири`)
+    }
+
+    let number = +prompt(`Введіть число`);
+    if (number === 10) {
+        console.log(`Вірно`);
+    } else {
+        console.log(`Невірно`);
+    }
+
+
+    let www = prompt(`Введіть ваше значення`)
+    if (typeof www === `number`) {
+        console.log(1);
+    } else if (typeof www === 'string') {
+        console.log(2);
+    } else if (typeof www === 'boolean') {
+        console.log(3);
+    } else if (typeof www === `object`) {
+        console.log(4)
+    } else {
+        console.log(`False`)
+    }
+
+    let temperature = +prompt(`Яка температура?`)
+    if (temperature >= 10 && temperature <= 22) {
+        console.log('Сьогодні йдемо вчитися')
+    } else {
+        console.log('Сьогодні навчання не буде')
+    }
+
+
+    let gift = +prompt('Оберіть число від 1 до 5');
+    switch (gift) {
+        case 1:
+            console.log(`Вітаємо,ви виграли авто`);
+            break;
+        case 2:
+            console.log(`Вітаємо,ви виграли мото`);
+            break;
+        case 3:
+            console.log(`Вітаємо,ви виграли телефон`);
+            break;
+        case 4:
+            console.log(`Вітаємо,ви виграли айфон`);
+            break;
+        case 5:
+            console.log(`Вітаємо,ви виграли подарунок`);
+            break;
+        default:
+            console.log(`Номер введено невірно`)
+
+    }
+
+</script>
+
+</body>
+</html>
