@@ -49,16 +49,16 @@
 //     document.write(`<p>${page}</p>`)
 // }
 //
-// book()
+// book(page)
 //
 //
 // // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 //
 // function list(magazine) {
 //     document.write(`<ul>`);
-//     document.write(`<li>magazine</li>`);
-//     document.write(`<li>magazine</li>`);
-//     document.write(`<li>magazine</li>`);
+//     document.write(`<li>${magazine}</li>`);
+//     document.write(`<li>${magazine}</li>`);
+//     document.write(`<li>${magazine}</li>`);
 //     document.write(`</ul>`);
 // }
 //
@@ -77,16 +77,16 @@
 //
 //
 // // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-//
-// let array1 =[17,true,'DarkHorse',false]
-// function arrays(array2) {
-//     document.write(`<ul>`)
-//     for (let c = 0; c < array1.length; c++) {
-//         document.write(`<li>${array2}</li>`)
-//     }
-//     document.write(`</ul>`)
-// }
-// arrays(array1);
+
+let array1 =[17,true,'DarkHorse',false]
+function arrays(array2) {
+    document.write(`<ul>`)
+    for (let c = 0; c < array1.length; c++) {
+        document.write(`<li>${array2[c]}</li>`)
+    }
+    document.write(`</ul>`)
+}
+arrays(array1);
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
