@@ -42,26 +42,26 @@
 // let a = [1,2,3];
 
 // function name() {
-//     let max = a[0]
+//     let max = a[0];
 //     for (let element of a) {
 //         if (element > max) {
 //             max = element;
 //         }
 //     }
-//     return max
+//     return max;
 // }
-// console.log(name(a))
+// console.log(name(a));
 
 // function name() {
-//     let max = a[0]
+//     let max = a[0];
 //     for (let element of a) {
 //         if (element < max) {
 //             max = element;
 //         }
 //     }
-//     return max
+//     return max;
 // }
-// console.log(name(a))
+// console.log(name(a));
 
 
 // створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
@@ -96,7 +96,7 @@
 
 // function array(arg,arg1,arg2){
 //     let max =arguments[0];
-//     let min =arguments[0]
+//     let min =arguments[0];
 //     for (const element of arguments) {
 //         if(element>max){
 //             max=element
