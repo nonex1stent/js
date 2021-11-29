@@ -16,7 +16,7 @@ zzz.innerText='Hi Guys'
 // -- змініть кожному елементу колір фону на червоний
 // -- змініть кожному елементу колір тексту на синій
 
-www.style.color='firebrick'
+www.style.background='firebrick'
 zzz.style.color='blue'
 
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
